@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url('logoHome2x.png') ;
+  }
+  
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  canvas {
+    background-color: #fff;
+    cursor: crosshair;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: solid;    
+  }
+  
+  input {
+    margin-left: 5px;
+  }
+
+  .buttons {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(68, 218, 218);
+    border-radius: 5px;
+  }
+
+  #versionSelect {
+    margin-right: 10px; /* Define a margem à direita do <select> */
+    margin-left: 10px;
+  }
+  
+  input {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clear {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-left: 10px;
+  }
+  

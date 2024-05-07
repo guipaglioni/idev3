@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <main>
+        <div class="buttons">
+            <button   class="clear" id="gerarPalavraButton">Gerar Palavra</button>
+            <p class="clear" id="palavra"></p>
+            <button  class="clear" id="toggleButton">Mostrar/Ocultar</button>
+        </div>
+        <canvas width="800" height="600"></canvas>
+        <div class="buttons">
+            <input type="color" />
+            <button onclick="clearBoard()" class="clear">Apagar</button>
+            <button onclick="saveDraw()" class="clear">Salvar</button>
+            <button onclick="clearLocalStorage()" class="clear">Zerar</button>
+            <select id="versionSelect">
+                <option value="">Escolha uma versão para restaurar</option>
+            </select>
+            <button onclick="restoreVersion()">Restaurar Versão Selecionada</button>
+
+
+            <script src="main.js"></script>
+        </div>
+    </main>
+</body>
+
+</html>
